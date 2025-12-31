@@ -47,8 +47,8 @@ class Settings:
     TAVILY_API_KEY: str = os.getenv("TAVILY_API_KEY", "")
     
     # LLM Configuration
-    LLM_MODEL: str = "llama-3.1-8b-instant"  # Free Groq model
-    LLM_TEMPERATURE: float = 0.7
+    LLM_MODEL: str = "openai/gpt-oss-120b"  # Free Groq model
+    LLM_TEMPERATURE: float = 0.0
     
     # Embedding Configuration  
     EMBEDDING_MODEL: str = "sentence-transformers/all-MiniLM-L6-v2"  # Free HuggingFace model

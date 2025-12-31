@@ -25,7 +25,7 @@ from core.vector_store import VectorStoreManager
 
 
 # RAG Prompt Template
-RAG_PROMPT_TEMPLATE = """You are a helpful AI assistant. Use the following context to answer the user's question.
+RAG_PROMPT_TEMPLATE = """You are a helpful AI-powered research assistant. Use the following context to answer the user's question.
 If the context doesn't contain relevant information, say so and provide what help you can.
 
 Context:
